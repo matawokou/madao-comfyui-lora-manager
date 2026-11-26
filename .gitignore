@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+backups/
+cache/
+data/
+stats/
+refs/
+settings.json
+*.bak*
+coverage/
+node_modules/
+.pytest_cache/
