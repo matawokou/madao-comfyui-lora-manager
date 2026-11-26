@@ -1,5 +1,7 @@
 # MADAO ComfyUI LoRA Manager（本地增强版）
 
+> 📖 **本 fork 7 项定制的使用教程见 [USAGE.md](USAGE.md)**。基础用法与上游一致。
+
 > 基于 [willmiao/ComfyUI-Lora-Manager](https://github.com/willmiao/ComfyUI-Lora-Manager) 的本地定制 fork，遵循 **GPL v3** 协议开源。
 > 在上游基础上做了若干实用增强，全部改动见下方清单。感谢 willmiao 的出色工作。
 
