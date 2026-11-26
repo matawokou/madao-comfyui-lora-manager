@@ -1,0 +1,28 @@
+[project]
+# Fully detached LOCAL fork. Owned and maintained locally; the folder name,
+# package name and publisher identity are all local so that NO registry
+# (ComfyUI-Manager / Comfy Registry / 绘世启动器) can match or update it.
+# Self-update endpoints inside the plugin are disabled (update_routes.py
+# fork guard, unless LORA_MANAGER_ALLOW_FORK_UPDATE=1).
+name = "comfyui-lora-manager-plus-local"
+description = "Local LoRA companion for ComfyUI (detached fork with grouped LoRA list + search + transparent download errors)"
+version = "1.2.2"
+license = {file = "LICENSE"}
+dependencies = [
+    "aiohttp",
+    "jinja2",
+    "safetensors",
+    "piexif",
+    "Pillow",
+    "olefile", # for getting rid of warning message
+    "toml",
+    "natsort",
+    "GitPython",
+    "aiosqlite",
+    "platformdirs",
+    "pyyaml"
+]
+
+[tool.comfy]
+PublisherId = "local"
+DisplayName = "LoRA Manager (Local)"

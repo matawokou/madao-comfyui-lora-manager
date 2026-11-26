@@ -1,0 +1,24 @@
+<!-- Link to ModelScope Modal -->
+<div id="linkModelScopeModal" class="modal">
+    <div class="modal-content">
+        <button class="close" onclick="modalManager.closeModal('linkModelScopeModal')">&times;</button>
+        <h2>{{ t('modals.linkModelScope.title') }}</h2>
+        <div class="warning-box">
+            <i class="fas fa-info-circle"></i>
+            <p>{{ t('modals.linkModelScope.infoText') }}</p>
+        </div>
+        <div class="input-group">
+            <label for="modelScopeUrl">{{ t('modals.linkModelScope.urlLabel') }}</label>
+            <input type="text" id="modelScopeUrl" placeholder="{{ t('modals.linkModelScope.urlPlaceholder') }}" />
+            <div class="input-error" id="modelScopeUrlError"></div>
+            <div class="input-help">
+                {{ t('modals.linkModelScope.helpText') }}<br>
+                <strong>https://www.modelscope.cn/models/owner/model</strong>
+            </div>
+        </div>
+        <div class="modal-actions">
+            <button class="cancel-btn" onclick="modalManager.closeModal('linkModelScopeModal')">{{ t('common.actions.cancel') }}</button>
+            <button class="confirm-btn" id="confirmLinkModelScopeBtn">{{ t('modals.linkModelScope.confirmAction') }}</button>
+        </div>
+    </div>
+</div>
