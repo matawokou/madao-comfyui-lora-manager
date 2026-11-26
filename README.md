@@ -17,6 +17,10 @@
 
 涉及文件均以 `LOCAL FORK` 注释标记，便于与上游 diff。
 
+## 🔗 配套项目
+
+- **[MADAO Prompt Manager](https://github.com/matawokou/madao-prompt-manager)** —— 浏览器提示词管理扩展，与本管理器的 LoRA 节点联动：一键把提示词发送到工作流的 LoRA/正向提示词节点，右键保存提示词时自动抓取最近生成图当封面。
+
 ## 安装
 
 ```bash
